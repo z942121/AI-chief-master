@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #faf6f0;
+  color: #3d2e1f;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+input,
+textarea {
+  font-family: inherit;
+}
+
+/* 滚动条 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(180, 120, 60, 0.18);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(180, 120, 60, 0.3);
+}
+
+/* Markdown 全局样式 */
+.markstream-content {
+  font-size: 14.5px;
+  line-height: 1.75;
+  color: #3d2e1f;
+}
+
+.markstream-content h1,
+.markstream-content h2,
+.markstream-content h3,
+.markstream-content h4 {
+  margin-top: 20px !important;
+  margin-bottom: 10px !important;
+  font-weight: 600;
+  color: #2d2014;
+  line-height: 1.4;
+}
+
+.markstream-content h1 { font-size: 1.5em; }
+.markstream-content h2 { font-size: 1.3em; }
+.markstream-content h3 { font-size: 1.15em; }
+.markstream-content h4 { font-size: 1em; }
+
+.markstream-content p {
+  margin-bottom: 10px !important;
+}
+
+.markstream-content ul,
+.markstream-content ol {
+  margin: 8px 0 !important;
+  padding-left: 22px !important;
+}
+
+.markstream-content li {
+  margin: 4px 0 !important;
+}
+
+.markstream-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0;
+  font-size: 13px;
+}
+
+.markstream-content th {
+  background: #faf0e4 !important;
+  padding: 10px 14px !important;
+  text-align: left !important;
+  font-weight: 600 !important;
+  border-bottom: 2px solid #e8d5b8 !important;
+  color: #8b5a1f !important;
+}
+
+.markstream-content td {
+  padding: 8px 14px !important;
+  border-bottom: 1px solid #f0e8da !important;
+}
+
+.markstream-content blockquote {
+  border-left: 3px solid #d4a56c !important;
+  padding: 8px 14px !important;
+  margin: 10px 0 !important;
+  background: #faf0e4 !important;
+  border-radius: 0 6px 6px 0 !important;
+  color: #7a5c3a !important;
+}
+
+.markstream-content code {
+  background: #f5ebe0 !important;
+  padding: 2px 6px !important;
+  border-radius: 4px !important;
+  font-size: 0.88em !important;
+  color: #b8651c !important;
+}
+
+.markstream-content pre {
+  background: #2d2014 !important;
+  color: #f5ebe0 !important;
+  padding: 14px 16px !important;
+  border-radius: 8px !important;
+  overflow-x: auto !important;
+  margin: 10px 0 !important;
+  font-size: 13px !important;
+}
+
+.markstream-content pre code {
+  background: none !important;
+  padding: 0 !important;
+  color: inherit !important;
+}
+
+.markstream-content a {
+  color: #b8651c !important;
+  text-decoration: none !important;
+  border-bottom: 1px solid #e8c8a0 !important;
+}
+
+.markstream-content a:hover {
+  border-bottom-color: #b8651c !important;
+}
+
+.markstream-content hr {
+  border: none !important;
+  border-top: 1px solid #e8d5b8 !important;
+  margin: 16px 0 !important;
+}
+
+.markstream-content strong {
+  font-weight: 600;
+  color: #2d2014;
+}
+
+/* PC 滚动条 */
+@media (min-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(180, 120, 60, 0.22);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(180, 120, 60, 0.35);
+  }
+}

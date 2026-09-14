@@ -1,0 +1,5 @@
+strategy,total_queries,hit_at_1,hit_at_3,hit_at_5,mrr,ingredient_coverage,avg_latency_ms,p50_latency_ms,p95_latency_ms,rag_hit_rate,tavily_success_rate,fallback_rate,avg_result_count
+rag_only,35,0.5161,0.5484,0.5484,0.5323,0.4462,1534.91,1258.9,3014.25,0.4857,0,0.5143,0.66
+tavily_only,35,0.2581,0.2581,0.2581,0.2581,0.0645,2.12,2.11,2.22,0.0,1.0,0.3714,0.66
+hybrid_merge,35,0.5806,0.6129,0.6129,0.5968,0.4462,1620.26,1338.38,2592.85,0.7714,1.0,0.2286,1.31
+hybrid_rrf,35,0.5806,0.6129,0.6129,0.5968,0.4462,1421.95,1306.55,2257.33,0.7714,1.0,0.2286,1.31

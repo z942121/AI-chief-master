@@ -1,0 +1,28 @@
+{
+  "name": "heima-cook-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^7.0.1",
+    "@ashlesss/markstream-vue": "^0.0.13-beta.2",
+    "@microsoft/fetch-event-source": "^2.0.1",
+    "ant-design-vue": "^4.2.6",
+    "axios": "^1.6.8",
+    "echarts": "^5.5.0",
+    "highlight.js": "^11.11.1",
+    "marked": "^18.0.5",
+    "vue": "^3.4.21",
+    "vue-echarts": "^6.6.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "sass": "^1.72.0",
+    "vite": "^5.2.8"
+  }
+}

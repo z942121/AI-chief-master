@@ -1,0 +1,282 @@
+[
+  {
+    "id": "q001",
+    "query": "西红柿 鸡蛋",
+    "required_ingredients": ["西红柿", "鸡蛋"],
+    "relevant_titles": ["番茄炒蛋", "西红柿鸡蛋汤", "西红柿鸡蛋面"],
+    "category": "exact_ingredient",
+    "ground_truth_available": true
+  },
+  {
+    "id": "q002",
+    "query": "牛肉 土豆",
+    "required_ingredients": ["牛肉", "土豆"],
+    "relevant_titles": ["土豆炖牛肉"],
+    "category": "exact_ingredient",
+    "ground_truth_available": true
+  },
+  {
+    "id": "q003",
+    "query": "鸡肉 胡萝卜",
+    "required_ingredients": ["鸡肉", "胡萝卜"],
+    "relevant_titles": ["土豆炖牛肉"],
+    "category": "exact_ingredient",
+    "ground_truth_available": true
+  },
+  {
+    "id": "q004",
+    "query": "鸡蛋 豆腐",
+    "required_ingredients": ["鸡蛋", "豆腐"],
+    "relevant_titles": ["麻婆豆腐"],
+    "category": "exact_ingredient",
+    "ground_truth_available": true
+  },
+  {
+    "id": "q005",
+    "query": "西兰花",
+    "required_ingredients": ["西兰花"],
+    "relevant_titles": ["蒜蓉西兰花"],
+    "category": "exact_ingredient",
+    "ground_truth_available": true
+  },
+  {
+    "id": "q006",
+    "query": "鸡翅 可乐",
+    "required_ingredients": ["鸡翅", "可乐"],
+    "relevant_titles": ["可乐鸡翅"],
+    "category": "exact_ingredient",
+    "ground_truth_available": true
+  },
+  {
+    "id": "q007",
+    "query": "我有西红柿、鸡蛋、土豆",
+    "required_ingredients": ["西红柿", "鸡蛋", "土豆"],
+    "relevant_titles": ["番茄炒蛋", "西红柿鸡蛋汤", "西红柿鸡蛋面", "土豆炖牛肉"],
+    "category": "multi_ingredient",
+    "ground_truth_available": true
+  },
+  {
+    "id": "q008",
+    "query": "牛肉、土豆、洋葱怎么做",
+    "required_ingredients": ["牛肉", "土豆", "洋葱"],
+    "relevant_titles": ["土豆炖牛肉", "葱爆牛肉"],
+    "category": "multi_ingredient",
+    "ground_truth_available": true
+  },
+  {
+    "id": "q009",
+    "query": "鸡肉、香菇、青椒",
+    "required_ingredients": ["鸡肉", "香菇", "青椒"],
+    "relevant_titles": ["宫保鸡丁", "青椒肉丝"],
+    "category": "multi_ingredient",
+    "ground_truth_available": true
+  },
+  {
+    "id": "q010",
+    "query": "猪肉 青椒",
+    "required_ingredients": ["猪肉", "青椒"],
+    "relevant_titles": ["青椒肉丝", "鱼香肉丝"],
+    "category": "multi_ingredient",
+    "ground_truth_available": true
+  },
+  {
+    "id": "q011",
+    "query": "番茄 鸡蛋",
+    "required_ingredients": ["番茄", "鸡蛋"],
+    "relevant_titles": ["番茄炒蛋", "西红柿鸡蛋汤", "西红柿鸡蛋面"],
+    "category": "synonym",
+    "ground_truth_available": true
+  },
+  {
+    "id": "q012",
+    "query": "马铃薯 牛肉",
+    "required_ingredients": ["马铃薯", "牛肉"],
+    "relevant_titles": ["土豆炖牛肉"],
+    "category": "synonym",
+    "ground_truth_available": true
+  },
+  {
+    "id": "q013",
+    "query": "洋芋 牛肉",
+    "required_ingredients": ["洋芋", "牛肉"],
+    "relevant_titles": ["土豆炖牛肉"],
+    "category": "synonym",
+    "ground_truth_available": true
+  },
+  {
+    "id": "q014",
+    "query": "番茄 炒蛋",
+    "required_ingredients": ["番茄", "鸡蛋"],
+    "relevant_titles": ["番茄炒蛋"],
+    "category": "synonym",
+    "ground_truth_available": true
+  },
+  {
+    "id": "q015",
+    "query": "西红柿鸡蛋，不吃辣",
+    "required_ingredients": ["西红柿", "鸡蛋"],
+    "relevant_titles": ["番茄炒蛋", "西红柿鸡蛋汤", "西红柿鸡蛋面"],
+    "category": "preference",
+    "ground_truth_available": true
+  },
+  {
+    "id": "q016",
+    "query": "牛肉土豆，少油",
+    "required_ingredients": ["牛肉", "土豆"],
+    "relevant_titles": ["土豆炖牛肉"],
+    "category": "preference",
+    "ground_truth_available": true
+  },
+  {
+    "id": "q017",
+    "query": "鸡肉，不要辣",
+    "required_ingredients": ["鸡肉"],
+    "relevant_titles": ["宫保鸡丁", "鸡胸肉沙拉"],
+    "category": "preference",
+    "ground_truth_available": true
+  },
+  {
+    "id": "q018",
+    "query": "家常牛肉怎么做",
+    "required_ingredients": ["牛肉"],
+    "relevant_titles": ["土豆炖牛肉", "葱爆牛肉", "红烧肉"],
+    "category": "ambiguous",
+    "ground_truth_available": true
+  },
+  {
+    "id": "q019",
+    "query": "鸡蛋简单做法",
+    "required_ingredients": ["鸡蛋"],
+    "relevant_titles": ["番茄炒蛋", "西红柿鸡蛋汤", "蛋炒饭"],
+    "category": "ambiguous",
+    "ground_truth_available": true
+  },
+  {
+    "id": "q020",
+    "query": "适合下饭的番茄菜",
+    "required_ingredients": ["番茄"],
+    "relevant_titles": ["番茄炒蛋", "西红柿鸡蛋汤"],
+    "category": "ambiguous",
+    "ground_truth_available": true
+  },
+  {
+    "id": "q021",
+    "query": "下饭菜谱",
+    "required_ingredients": [],
+    "relevant_titles": ["鱼香肉丝", "宫保鸡丁", "麻婆豆腐"],
+    "category": "ambiguous",
+    "ground_truth_available": true
+  },
+  {
+    "id": "q022",
+    "query": "简单的家常菜",
+    "required_ingredients": [],
+    "relevant_titles": ["番茄炒蛋", "蛋炒饭", "西红柿鸡蛋汤"],
+    "category": "ambiguous",
+    "ground_truth_available": true
+  },
+  {
+    "id": "q023",
+    "query": "鳕鱼怎么做",
+    "required_ingredients": ["鳕鱼"],
+    "relevant_titles": [],
+    "category": "rag_miss",
+    "ground_truth_available": false
+  },
+  {
+    "id": "q024",
+    "query": "法式牛排怎么做",
+    "required_ingredients": ["牛排"],
+    "relevant_titles": [],
+    "category": "rag_miss",
+    "ground_truth_available": false
+  },
+  {
+    "id": "q025",
+    "query": "三文鱼刺身",
+    "required_ingredients": ["三文鱼"],
+    "relevant_titles": [],
+    "category": "rag_miss",
+    "ground_truth_available": false
+  },
+  {
+    "id": "q026",
+    "query": "羊肉泡馍",
+    "required_ingredients": ["羊肉"],
+    "relevant_titles": [],
+    "category": "rag_miss",
+    "ground_truth_available": false
+  },
+  {
+    "id": "q027",
+    "query": "西红柿",
+    "required_ingredients": ["西红柿"],
+    "relevant_titles": ["番茄炒蛋", "西红柿鸡蛋汤", "西红柿鸡蛋面"],
+    "category": "exact_ingredient",
+    "ground_truth_available": true
+  },
+  {
+    "id": "q028",
+    "query": "鸡蛋",
+    "required_ingredients": ["鸡蛋"],
+    "relevant_titles": ["番茄炒蛋", "西红柿鸡蛋汤", "蛋炒饭", "西红柿鸡蛋面"],
+    "category": "exact_ingredient",
+    "ground_truth_available": true
+  },
+  {
+    "id": "q029",
+    "query": "五花肉",
+    "required_ingredients": ["五花肉"],
+    "relevant_titles": ["红烧肉"],
+    "category": "exact_ingredient",
+    "ground_truth_available": true
+  },
+  {
+    "id": "q030",
+    "query": "豆腐怎么做好吃",
+    "required_ingredients": ["豆腐"],
+    "relevant_titles": ["麻婆豆腐"],
+    "category": "ambiguous",
+    "ground_truth_available": true
+  },
+  {
+    "id": "q031",
+    "query": "鸡胸肉 减脂",
+    "required_ingredients": ["鸡胸肉"],
+    "relevant_titles": ["鸡胸肉沙拉"],
+    "category": "preference",
+    "ground_truth_available": true
+  },
+  {
+    "id": "q032",
+    "query": "茄子 土豆 青椒",
+    "required_ingredients": ["茄子", "土豆", "青椒"],
+    "relevant_titles": ["地三鲜"],
+    "category": "multi_ingredient",
+    "ground_truth_available": true
+  },
+  {
+    "id": "q033",
+    "query": "肉丝 青椒",
+    "required_ingredients": ["猪肉", "青椒"],
+    "relevant_titles": ["青椒肉丝"],
+    "category": "exact_ingredient",
+    "ground_truth_available": true
+  },
+  {
+    "id": "q034",
+    "query": "木耳 胡萝卜 猪肉",
+    "required_ingredients": ["猪肉", "胡萝卜"],
+    "relevant_titles": ["鱼香肉丝"],
+    "category": "multi_ingredient",
+    "ground_truth_available": true
+  },
+  {
+    "id": "q035",
+    "query": "剩饭怎么做",
+    "required_ingredients": ["米饭"],
+    "relevant_titles": ["蛋炒饭"],
+    "category": "ambiguous",
+    "ground_truth_available": true
+  }
+]

@@ -1,0 +1,231 @@
+{
+  "version": "1.0",
+  "description": "Offline Tavily fixtures for benchmark. Maps query to simulated Tavily results.",
+  "fixtures": [
+    {
+      "query": "西红柿 鸡蛋",
+      "results": [
+        {
+          "title": "西红柿炒鸡蛋的家常做法",
+          "content": "西红柿炒鸡蛋是一道经典家常菜。食材：西红柿2个，鸡蛋3个，食用油适量，盐适量。步骤：1.鸡蛋打散炒熟盛出 2.西红柿翻炒出汁 3.混合翻炒调味出锅。",
+          "url": "https://www.example.com/recipe/xihongshi-jidan-chao"
+        },
+        {
+          "title": "西红柿鸡蛋汤做法",
+          "content": "西红柿鸡蛋汤食材：西红柿1个，鸡蛋2个，清水500ml。步骤：水烧开后放入西红柿块，倒入蛋液，调味即可。",
+          "url": "https://www.example.com/recipe/xihongshi-jidan-tang"
+        }
+      ]
+    },
+    {
+      "query": "牛肉 土豆",
+      "results": [
+        {
+          "title": "土豆炖牛肉的做法",
+          "content": "土豆炖牛肉食材：牛腩500g，土豆2个，胡萝卜1根，洋葱半个。步骤：牛肉焯水，加调料炖煮1小时，放入土豆胡萝卜继续炖30分钟。",
+          "url": "https://www.example.com/recipe/tudou-niurou"
+        }
+      ]
+    },
+    {
+      "query": "鸡肉 胡萝卜",
+      "results": [
+        {
+          "title": "胡萝卜炒鸡肉",
+          "content": "食材：鸡胸肉200g，胡萝卜1根。步骤：鸡肉切片腌制，胡萝卜切丝，大火快炒调味出锅。",
+          "url": "https://www.example.com/recipe/huluobo-jirou"
+        }
+      ]
+    },
+    {
+      "query": "鸡蛋 豆腐",
+      "results": [
+        {
+          "title": "鸡蛋豆腐羹",
+          "content": "食材：鸡蛋2个，嫩豆腐1块。步骤：豆腐切小块，鸡蛋打散，混合蒸制10分钟，淋上酱油。",
+          "url": "https://www.example.com/recipe/jidan-doufu"
+        }
+      ]
+    },
+    {
+      "query": "西兰花",
+      "results": [
+        {
+          "title": "蒜蓉西兰花做法",
+          "content": "食材：西兰花1颗，大蒜3瓣。步骤：西兰花焯水，蒜蓉爆香，快炒出锅。",
+          "url": "https://www.example.com/recipe/xilan-hua"
+        }
+      ]
+    },
+    {
+      "query": "鸡翅 可乐",
+      "results": [
+        {
+          "title": "可乐鸡翅经典做法",
+          "content": "食材：鸡翅10个，可乐1罐。步骤：鸡翅焯水划口，煎至金黄，倒入可乐焖煮收汁。",
+          "url": "https://www.example.com/recipe/kele-jichi"
+        }
+      ]
+    },
+    {
+      "query": "我有西红柿、鸡蛋、土豆",
+      "results": [
+        {
+          "title": "西红柿鸡蛋面",
+          "content": "食材：西红柿1个，鸡蛋2个，面条200g。步骤：炒鸡蛋盛出，西红柿炒出汁，加水煮面，放入鸡蛋调味。",
+          "url": "https://www.example.com/recipe/xihongshi-jidan-mian"
+        }
+      ]
+    },
+    {
+      "query": "牛肉、土豆、洋葱怎么做",
+      "results": [
+        {
+          "title": "葱爆牛肉",
+          "content": "食材：牛肉250g，大葱2根。步骤：牛肉切片腌制，大葱切段，大火快炒出锅。",
+          "url": "https://www.example.com/recipe/cong-bao-niurou"
+        }
+      ]
+    },
+    {
+      "query": "鸡肉、香菇、青椒",
+      "results": [
+        {
+          "title": "宫保鸡丁",
+          "content": "食材：鸡胸肉200g，花生米50g，干辣椒。步骤：鸡肉切丁腌制，炒香花生和辣椒，放入鸡丁翻炒调味。",
+          "url": "https://www.example.com/recipe/gongbao-jiding"
+        }
+      ]
+    },
+    {
+      "query": "猪肉 青椒",
+      "results": [
+        {
+          "title": "青椒肉丝",
+          "content": "食材：猪里脊200g，青椒2个。步骤：猪肉切丝腌制，青椒切丝，大火快炒调味出锅。",
+          "url": "https://www.example.com/recipe/qingjiao-rousi"
+        }
+      ]
+    },
+    {
+      "query": "番茄 鸡蛋",
+      "results": [
+        {
+          "title": "番茄炒蛋",
+          "content": "食材：番茄2个，鸡蛋3个。步骤：鸡蛋炒熟盛出，番茄翻炒出汁，混合翻炒调味。",
+          "url": "https://www.example.com/recipe/fanqie-chaodan"
+        }
+      ]
+    },
+    {
+      "query": "马铃薯 牛肉",
+      "results": [
+        {
+          "title": "马铃薯炖牛肉",
+          "content": "食材：牛腩500g，马铃薯2个。步骤：牛肉焯水炖煮，马铃薯切块加入，炖至软烂。",
+          "url": "https://www.example.com/recipe/malingshu-niurou"
+        }
+      ]
+    },
+    {
+      "query": "洋芋 牛肉",
+      "results": [
+        {
+          "title": "洋芋炖牛肉",
+          "content": "食材：牛腩500g，洋芋2个。步骤：牛肉焯水，洋芋切块，一起炖煮90分钟至软烂。",
+          "url": "https://www.example.com/recipe/yangyu-niurou"
+        }
+      ]
+    },
+    {
+      "query": "番茄 炒蛋",
+      "results": [
+        {
+          "title": "番茄炒蛋家常做法",
+          "content": "食材：番茄2个，鸡蛋3个，食用油适量。步骤：鸡蛋打散炒熟，番茄翻炒出汁，混合调味出锅。",
+          "url": "https://www.example.com/recipe/fanqie-chaodan-jia"
+        }
+      ]
+    },
+    {
+      "query": "家常牛肉怎么做",
+      "results": [
+        {
+          "title": "红烧牛肉的家常做法",
+          "content": "食材：牛腩500g，生抽老抽适量。步骤：牛肉焯水，炒糖色，加调料炖煮90分钟。",
+          "url": "https://www.example.com/recipe/hongshao-niurou"
+        }
+      ]
+    },
+    {
+      "query": "鸡蛋简单做法",
+      "results": [
+        {
+          "title": "蛋炒饭",
+          "content": "食材：鸡蛋2个，米饭1碗。步骤：鸡蛋打散炒碎，加入米饭翻炒，调味出锅。",
+          "url": "https://www.example.com/recipe/dan-chaofan"
+        }
+      ]
+    },
+    {
+      "query": "鳕鱼怎么做",
+      "results": [
+        {
+          "title": "清蒸鳕鱼",
+          "content": "食材：鳕鱼1块，姜丝，葱段。步骤：鳕鱼解冻，铺上姜葱，蒸8分钟，淋上蒸鱼豉油。",
+          "url": "https://www.example.com/recipe/xueyu"
+        }
+      ]
+    },
+    {
+      "query": "法式牛排怎么做",
+      "results": [
+        {
+          "title": "法式煎牛排",
+          "content": "食材：牛排1块，黑胡椒，黄油。步骤：牛排室温回温，大火煎至两面焦黄，加黄油浇筑。",
+          "url": "https://www.example.com/recipe/fashi-niupai"
+        }
+      ]
+    },
+    {
+      "query": "五花肉",
+      "results": [
+        {
+          "title": "红烧肉经典做法",
+          "content": "食材：五花肉500g，冰糖，生抽老抽。步骤：五花肉切块焯水，炒糖色，加调料炖煮60分钟。",
+          "url": "https://www.example.com/recipe/hongshao-rou"
+        }
+      ]
+    },
+    {
+      "query": "豆腐怎么做好吃",
+      "results": [
+        {
+          "title": "麻婆豆腐",
+          "content": "食材：嫩豆腐1块，猪肉末50g，豆瓣酱。步骤：豆腐切块焯水，炒香肉末和豆瓣酱，加豆腐炖煮。",
+          "url": "https://www.example.com/recipe/mapo-doufu"
+        }
+      ]
+    },
+    {
+      "query": "茄子 土豆 青椒",
+      "results": [
+        {
+          "title": "地三鲜",
+          "content": "食材：茄子1个，土豆2个，青椒2个。步骤：所有食材切块过油，调汁翻炒出锅。",
+          "url": "https://www.example.com/recipe/disanxian"
+        }
+      ]
+    },
+    {
+      "query": "剩饭怎么做",
+      "results": [
+        {
+          "title": "蛋炒饭做法",
+          "content": "食材：剩米饭1碗，鸡蛋2个。步骤：鸡蛋炒散，加入米饭翻炒，调味出锅。",
+          "url": "https://www.example.com/recipe/dan-chaofan-shengfan"
+        }
+      ]
+    }
+  ]
+}

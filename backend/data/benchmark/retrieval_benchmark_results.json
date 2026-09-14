@@ -1,0 +1,1513 @@
+{
+  "mode": "offline",
+  "dataset_size": 35,
+  "strategy_results": [
+    {
+      "strategy": "rag_only",
+      "total_queries": 35,
+      "ground_truth_queries": 31,
+      "hit_at_1": 0.5161,
+      "hit_at_3": 0.5484,
+      "hit_at_5": 0.5484,
+      "mrr": 0.5323,
+      "ingredient_coverage": 0.4462,
+      "avg_latency_ms": 1534.91,
+      "p50_latency_ms": 1258.9,
+      "p95_latency_ms": 3014.25,
+      "rag_hit_rate": 0.4857,
+      "tavily_success_rate": 0,
+      "fallback_rate": 0.5143,
+      "avg_result_count": 0.66,
+      "errors": [
+        {
+          "query_id": "q003",
+          "query": "鸡肉 胡萝卜",
+          "strategy": "rag_only",
+          "expected": [
+            "土豆炖牛肉"
+          ],
+          "actual": [],
+          "missing_ingredients": [
+            "鸡肉",
+            "胡萝卜"
+          ],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q004",
+          "query": "鸡蛋 豆腐",
+          "strategy": "rag_only",
+          "expected": [
+            "麻婆豆腐"
+          ],
+          "actual": [],
+          "missing_ingredients": [
+            "鸡蛋",
+            "豆腐"
+          ],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q009",
+          "query": "鸡肉、香菇、青椒",
+          "strategy": "rag_only",
+          "expected": [
+            "宫保鸡丁",
+            "青椒肉丝"
+          ],
+          "actual": [],
+          "missing_ingredients": [
+            "鸡肉",
+            "香菇",
+            "青椒"
+          ],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q012",
+          "query": "马铃薯 牛肉",
+          "strategy": "rag_only",
+          "expected": [
+            "土豆炖牛肉"
+          ],
+          "actual": [],
+          "missing_ingredients": [
+            "马铃薯",
+            "牛肉"
+          ],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q013",
+          "query": "洋芋 牛肉",
+          "strategy": "rag_only",
+          "expected": [
+            "土豆炖牛肉"
+          ],
+          "actual": [],
+          "missing_ingredients": [
+            "洋芋",
+            "牛肉"
+          ],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q017",
+          "query": "鸡肉，不要辣",
+          "strategy": "rag_only",
+          "expected": [
+            "宫保鸡丁",
+            "鸡胸肉沙拉"
+          ],
+          "actual": [],
+          "missing_ingredients": [
+            "鸡肉"
+          ],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q018",
+          "query": "家常牛肉怎么做",
+          "strategy": "rag_only",
+          "expected": [
+            "土豆炖牛肉",
+            "葱爆牛肉",
+            "红烧肉"
+          ],
+          "actual": [
+            "土豆炖牛肉"
+          ],
+          "missing_ingredients": [],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q020",
+          "query": "适合下饭的番茄菜",
+          "strategy": "rag_only",
+          "expected": [
+            "番茄炒蛋",
+            "西红柿鸡蛋汤"
+          ],
+          "actual": [],
+          "missing_ingredients": [
+            "番茄"
+          ],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q021",
+          "query": "下饭菜谱",
+          "strategy": "rag_only",
+          "expected": [
+            "鱼香肉丝",
+            "宫保鸡丁",
+            "麻婆豆腐"
+          ],
+          "actual": [],
+          "missing_ingredients": [],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q022",
+          "query": "简单的家常菜",
+          "strategy": "rag_only",
+          "expected": [
+            "番茄炒蛋",
+            "蛋炒饭",
+            "西红柿鸡蛋汤"
+          ],
+          "actual": [],
+          "missing_ingredients": [],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q023",
+          "query": "鳕鱼怎么做",
+          "strategy": "rag_only",
+          "expected": [],
+          "actual": [],
+          "missing_ingredients": [],
+          "reason": "no_ground_truth"
+        },
+        {
+          "query_id": "q024",
+          "query": "法式牛排怎么做",
+          "strategy": "rag_only",
+          "expected": [],
+          "actual": [],
+          "missing_ingredients": [],
+          "reason": "no_ground_truth"
+        },
+        {
+          "query_id": "q025",
+          "query": "三文鱼刺身",
+          "strategy": "rag_only",
+          "expected": [],
+          "actual": [],
+          "missing_ingredients": [],
+          "reason": "no_ground_truth"
+        },
+        {
+          "query_id": "q026",
+          "query": "羊肉泡馍",
+          "strategy": "rag_only",
+          "expected": [],
+          "actual": [],
+          "missing_ingredients": [],
+          "reason": "no_ground_truth"
+        },
+        {
+          "query_id": "q028",
+          "query": "鸡蛋",
+          "strategy": "rag_only",
+          "expected": [
+            "番茄炒蛋",
+            "西红柿鸡蛋汤",
+            "蛋炒饭",
+            "西红柿鸡蛋面"
+          ],
+          "actual": [],
+          "missing_ingredients": [
+            "鸡蛋"
+          ],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q029",
+          "query": "五花肉",
+          "strategy": "rag_only",
+          "expected": [
+            "红烧肉"
+          ],
+          "actual": [],
+          "missing_ingredients": [
+            "五花肉"
+          ],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q030",
+          "query": "豆腐怎么做好吃",
+          "strategy": "rag_only",
+          "expected": [
+            "麻婆豆腐"
+          ],
+          "actual": [
+            "麻婆豆腐"
+          ],
+          "missing_ingredients": [],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q032",
+          "query": "茄子 土豆 青椒",
+          "strategy": "rag_only",
+          "expected": [
+            "地三鲜"
+          ],
+          "actual": [],
+          "missing_ingredients": [
+            "茄子",
+            "土豆",
+            "青椒"
+          ],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q034",
+          "query": "木耳 胡萝卜 猪肉",
+          "strategy": "rag_only",
+          "expected": [
+            "鱼香肉丝"
+          ],
+          "actual": [],
+          "missing_ingredients": [
+            "猪肉",
+            "胡萝卜"
+          ],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q035",
+          "query": "剩饭怎么做",
+          "strategy": "rag_only",
+          "expected": [
+            "蛋炒饭"
+          ],
+          "actual": [],
+          "missing_ingredients": [
+            "米饭"
+          ],
+          "reason": "rag_miss"
+        }
+      ]
+    },
+    {
+      "strategy": "tavily_only",
+      "total_queries": 35,
+      "ground_truth_queries": 31,
+      "hit_at_1": 0.2581,
+      "hit_at_3": 0.2581,
+      "hit_at_5": 0.2581,
+      "mrr": 0.2581,
+      "ingredient_coverage": 0.0645,
+      "avg_latency_ms": 2.12,
+      "p50_latency_ms": 2.11,
+      "p95_latency_ms": 2.22,
+      "rag_hit_rate": 0.0,
+      "tavily_success_rate": 1.0,
+      "fallback_rate": 0.3714,
+      "avg_result_count": 0.66,
+      "errors": [
+        {
+          "query_id": "q001",
+          "query": "西红柿 鸡蛋",
+          "strategy": "tavily_only",
+          "expected": [
+            "番茄炒蛋",
+            "西红柿鸡蛋汤",
+            "西红柿鸡蛋面"
+          ],
+          "actual": [
+            "西红柿炒鸡蛋的家常做法",
+            "西红柿鸡蛋汤做法"
+          ],
+          "missing_ingredients": [
+            "西红柿"
+          ],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q002",
+          "query": "牛肉 土豆",
+          "strategy": "tavily_only",
+          "expected": [
+            "土豆炖牛肉"
+          ],
+          "actual": [
+            "土豆炖牛肉的做法"
+          ],
+          "missing_ingredients": [
+            "土豆"
+          ],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q003",
+          "query": "鸡肉 胡萝卜",
+          "strategy": "tavily_only",
+          "expected": [
+            "土豆炖牛肉"
+          ],
+          "actual": [
+            "胡萝卜炒鸡肉"
+          ],
+          "missing_ingredients": [],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q004",
+          "query": "鸡蛋 豆腐",
+          "strategy": "tavily_only",
+          "expected": [
+            "麻婆豆腐"
+          ],
+          "actual": [
+            "鸡蛋豆腐羹"
+          ],
+          "missing_ingredients": [],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q005",
+          "query": "西兰花",
+          "strategy": "tavily_only",
+          "expected": [
+            "蒜蓉西兰花"
+          ],
+          "actual": [
+            "蒜蓉西兰花做法"
+          ],
+          "missing_ingredients": [],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q006",
+          "query": "鸡翅 可乐",
+          "strategy": "tavily_only",
+          "expected": [
+            "可乐鸡翅"
+          ],
+          "actual": [
+            "可乐鸡翅经典做法"
+          ],
+          "missing_ingredients": [],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q007",
+          "query": "我有西红柿、鸡蛋、土豆",
+          "strategy": "tavily_only",
+          "expected": [
+            "番茄炒蛋",
+            "西红柿鸡蛋汤",
+            "西红柿鸡蛋面",
+            "土豆炖牛肉"
+          ],
+          "actual": [
+            "西红柿鸡蛋面"
+          ],
+          "missing_ingredients": [
+            "西红柿",
+            "土豆"
+          ],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q008",
+          "query": "牛肉、土豆、洋葱怎么做",
+          "strategy": "tavily_only",
+          "expected": [
+            "土豆炖牛肉",
+            "葱爆牛肉"
+          ],
+          "actual": [
+            "葱爆牛肉"
+          ],
+          "missing_ingredients": [
+            "土豆",
+            "洋葱"
+          ],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q009",
+          "query": "鸡肉、香菇、青椒",
+          "strategy": "tavily_only",
+          "expected": [
+            "宫保鸡丁",
+            "青椒肉丝"
+          ],
+          "actual": [
+            "宫保鸡丁"
+          ],
+          "missing_ingredients": [
+            "鸡肉",
+            "香菇",
+            "青椒"
+          ],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q010",
+          "query": "猪肉 青椒",
+          "strategy": "tavily_only",
+          "expected": [
+            "青椒肉丝",
+            "鱼香肉丝"
+          ],
+          "actual": [
+            "青椒肉丝"
+          ],
+          "missing_ingredients": [
+            "猪肉"
+          ],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q011",
+          "query": "番茄 鸡蛋",
+          "strategy": "tavily_only",
+          "expected": [
+            "番茄炒蛋",
+            "西红柿鸡蛋汤",
+            "西红柿鸡蛋面"
+          ],
+          "actual": [
+            "番茄炒蛋"
+          ],
+          "missing_ingredients": [
+            "鸡蛋"
+          ],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q012",
+          "query": "马铃薯 牛肉",
+          "strategy": "tavily_only",
+          "expected": [
+            "土豆炖牛肉"
+          ],
+          "actual": [
+            "马铃薯炖牛肉"
+          ],
+          "missing_ingredients": [],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q013",
+          "query": "洋芋 牛肉",
+          "strategy": "tavily_only",
+          "expected": [
+            "土豆炖牛肉"
+          ],
+          "actual": [
+            "洋芋炖牛肉"
+          ],
+          "missing_ingredients": [
+            "洋芋"
+          ],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q014",
+          "query": "番茄 炒蛋",
+          "strategy": "tavily_only",
+          "expected": [
+            "番茄炒蛋"
+          ],
+          "actual": [
+            "番茄炒蛋家常做法"
+          ],
+          "missing_ingredients": [
+            "鸡蛋"
+          ],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q015",
+          "query": "西红柿鸡蛋，不吃辣",
+          "strategy": "tavily_only",
+          "expected": [
+            "番茄炒蛋",
+            "西红柿鸡蛋汤",
+            "西红柿鸡蛋面"
+          ],
+          "actual": [],
+          "missing_ingredients": [
+            "西红柿",
+            "鸡蛋"
+          ],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q016",
+          "query": "牛肉土豆，少油",
+          "strategy": "tavily_only",
+          "expected": [
+            "土豆炖牛肉"
+          ],
+          "actual": [],
+          "missing_ingredients": [
+            "牛肉",
+            "土豆"
+          ],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q017",
+          "query": "鸡肉，不要辣",
+          "strategy": "tavily_only",
+          "expected": [
+            "宫保鸡丁",
+            "鸡胸肉沙拉"
+          ],
+          "actual": [],
+          "missing_ingredients": [
+            "鸡肉"
+          ],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q018",
+          "query": "家常牛肉怎么做",
+          "strategy": "tavily_only",
+          "expected": [
+            "土豆炖牛肉",
+            "葱爆牛肉",
+            "红烧肉"
+          ],
+          "actual": [
+            "红烧牛肉的家常做法"
+          ],
+          "missing_ingredients": [],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q019",
+          "query": "鸡蛋简单做法",
+          "strategy": "tavily_only",
+          "expected": [
+            "番茄炒蛋",
+            "西红柿鸡蛋汤",
+            "蛋炒饭"
+          ],
+          "actual": [
+            "蛋炒饭"
+          ],
+          "missing_ingredients": [
+            "鸡蛋"
+          ],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q020",
+          "query": "适合下饭的番茄菜",
+          "strategy": "tavily_only",
+          "expected": [
+            "番茄炒蛋",
+            "西红柿鸡蛋汤"
+          ],
+          "actual": [],
+          "missing_ingredients": [
+            "番茄"
+          ],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q021",
+          "query": "下饭菜谱",
+          "strategy": "tavily_only",
+          "expected": [
+            "鱼香肉丝",
+            "宫保鸡丁",
+            "麻婆豆腐"
+          ],
+          "actual": [],
+          "missing_ingredients": [],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q022",
+          "query": "简单的家常菜",
+          "strategy": "tavily_only",
+          "expected": [
+            "番茄炒蛋",
+            "蛋炒饭",
+            "西红柿鸡蛋汤"
+          ],
+          "actual": [],
+          "missing_ingredients": [],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q023",
+          "query": "鳕鱼怎么做",
+          "strategy": "tavily_only",
+          "expected": [],
+          "actual": [
+            "清蒸鳕鱼"
+          ],
+          "missing_ingredients": [],
+          "reason": "no_ground_truth"
+        },
+        {
+          "query_id": "q024",
+          "query": "法式牛排怎么做",
+          "strategy": "tavily_only",
+          "expected": [],
+          "actual": [
+            "法式煎牛排"
+          ],
+          "missing_ingredients": [],
+          "reason": "no_ground_truth"
+        },
+        {
+          "query_id": "q025",
+          "query": "三文鱼刺身",
+          "strategy": "tavily_only",
+          "expected": [],
+          "actual": [],
+          "missing_ingredients": [],
+          "reason": "no_ground_truth"
+        },
+        {
+          "query_id": "q026",
+          "query": "羊肉泡馍",
+          "strategy": "tavily_only",
+          "expected": [],
+          "actual": [],
+          "missing_ingredients": [],
+          "reason": "no_ground_truth"
+        },
+        {
+          "query_id": "q027",
+          "query": "西红柿",
+          "strategy": "tavily_only",
+          "expected": [
+            "番茄炒蛋",
+            "西红柿鸡蛋汤",
+            "西红柿鸡蛋面"
+          ],
+          "actual": [],
+          "missing_ingredients": [
+            "西红柿"
+          ],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q028",
+          "query": "鸡蛋",
+          "strategy": "tavily_only",
+          "expected": [
+            "番茄炒蛋",
+            "西红柿鸡蛋汤",
+            "蛋炒饭",
+            "西红柿鸡蛋面"
+          ],
+          "actual": [],
+          "missing_ingredients": [
+            "鸡蛋"
+          ],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q029",
+          "query": "五花肉",
+          "strategy": "tavily_only",
+          "expected": [
+            "红烧肉"
+          ],
+          "actual": [
+            "红烧肉经典做法"
+          ],
+          "missing_ingredients": [
+            "五花肉"
+          ],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q030",
+          "query": "豆腐怎么做好吃",
+          "strategy": "tavily_only",
+          "expected": [
+            "麻婆豆腐"
+          ],
+          "actual": [
+            "麻婆豆腐"
+          ],
+          "missing_ingredients": [],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q031",
+          "query": "鸡胸肉 减脂",
+          "strategy": "tavily_only",
+          "expected": [
+            "鸡胸肉沙拉"
+          ],
+          "actual": [],
+          "missing_ingredients": [
+            "鸡胸肉"
+          ],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q032",
+          "query": "茄子 土豆 青椒",
+          "strategy": "tavily_only",
+          "expected": [
+            "地三鲜"
+          ],
+          "actual": [
+            "地三鲜"
+          ],
+          "missing_ingredients": [
+            "茄子",
+            "土豆",
+            "青椒"
+          ],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q033",
+          "query": "肉丝 青椒",
+          "strategy": "tavily_only",
+          "expected": [
+            "青椒肉丝"
+          ],
+          "actual": [],
+          "missing_ingredients": [
+            "猪肉",
+            "青椒"
+          ],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q034",
+          "query": "木耳 胡萝卜 猪肉",
+          "strategy": "tavily_only",
+          "expected": [
+            "鱼香肉丝"
+          ],
+          "actual": [],
+          "missing_ingredients": [
+            "猪肉",
+            "胡萝卜"
+          ],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q035",
+          "query": "剩饭怎么做",
+          "strategy": "tavily_only",
+          "expected": [
+            "蛋炒饭"
+          ],
+          "actual": [
+            "蛋炒饭做法"
+          ],
+          "missing_ingredients": [
+            "米饭"
+          ],
+          "reason": "ingredient_mismatch"
+        }
+      ]
+    },
+    {
+      "strategy": "hybrid_merge",
+      "total_queries": 35,
+      "ground_truth_queries": 31,
+      "hit_at_1": 0.5806,
+      "hit_at_3": 0.6129,
+      "hit_at_5": 0.6129,
+      "mrr": 0.5968,
+      "ingredient_coverage": 0.4462,
+      "avg_latency_ms": 1620.26,
+      "p50_latency_ms": 1338.38,
+      "p95_latency_ms": 2592.85,
+      "rag_hit_rate": 0.7714,
+      "tavily_success_rate": 1.0,
+      "fallback_rate": 0.2286,
+      "avg_result_count": 1.31,
+      "errors": [
+        {
+          "query_id": "q003",
+          "query": "鸡肉 胡萝卜",
+          "strategy": "hybrid_merge",
+          "expected": [
+            "土豆炖牛肉"
+          ],
+          "actual": [
+            "胡萝卜炒鸡肉"
+          ],
+          "missing_ingredients": [],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q004",
+          "query": "鸡蛋 豆腐",
+          "strategy": "hybrid_merge",
+          "expected": [
+            "麻婆豆腐"
+          ],
+          "actual": [
+            "鸡蛋豆腐羹"
+          ],
+          "missing_ingredients": [],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q009",
+          "query": "鸡肉、香菇、青椒",
+          "strategy": "hybrid_merge",
+          "expected": [
+            "宫保鸡丁",
+            "青椒肉丝"
+          ],
+          "actual": [
+            "宫保鸡丁"
+          ],
+          "missing_ingredients": [
+            "鸡肉",
+            "香菇",
+            "青椒"
+          ],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q012",
+          "query": "马铃薯 牛肉",
+          "strategy": "hybrid_merge",
+          "expected": [
+            "土豆炖牛肉"
+          ],
+          "actual": [
+            "马铃薯炖牛肉"
+          ],
+          "missing_ingredients": [],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q013",
+          "query": "洋芋 牛肉",
+          "strategy": "hybrid_merge",
+          "expected": [
+            "土豆炖牛肉"
+          ],
+          "actual": [
+            "洋芋炖牛肉"
+          ],
+          "missing_ingredients": [
+            "洋芋"
+          ],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q017",
+          "query": "鸡肉，不要辣",
+          "strategy": "hybrid_merge",
+          "expected": [
+            "宫保鸡丁",
+            "鸡胸肉沙拉"
+          ],
+          "actual": [],
+          "missing_ingredients": [
+            "鸡肉"
+          ],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q018",
+          "query": "家常牛肉怎么做",
+          "strategy": "hybrid_merge",
+          "expected": [
+            "土豆炖牛肉",
+            "葱爆牛肉",
+            "红烧肉"
+          ],
+          "actual": [
+            "土豆炖牛肉",
+            "红烧牛肉的家常做法"
+          ],
+          "missing_ingredients": [],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q020",
+          "query": "适合下饭的番茄菜",
+          "strategy": "hybrid_merge",
+          "expected": [
+            "番茄炒蛋",
+            "西红柿鸡蛋汤"
+          ],
+          "actual": [],
+          "missing_ingredients": [
+            "番茄"
+          ],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q021",
+          "query": "下饭菜谱",
+          "strategy": "hybrid_merge",
+          "expected": [
+            "鱼香肉丝",
+            "宫保鸡丁",
+            "麻婆豆腐"
+          ],
+          "actual": [],
+          "missing_ingredients": [],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q022",
+          "query": "简单的家常菜",
+          "strategy": "hybrid_merge",
+          "expected": [
+            "番茄炒蛋",
+            "蛋炒饭",
+            "西红柿鸡蛋汤"
+          ],
+          "actual": [],
+          "missing_ingredients": [],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q023",
+          "query": "鳕鱼怎么做",
+          "strategy": "hybrid_merge",
+          "expected": [],
+          "actual": [
+            "清蒸鳕鱼"
+          ],
+          "missing_ingredients": [],
+          "reason": "no_ground_truth"
+        },
+        {
+          "query_id": "q024",
+          "query": "法式牛排怎么做",
+          "strategy": "hybrid_merge",
+          "expected": [],
+          "actual": [
+            "法式煎牛排"
+          ],
+          "missing_ingredients": [],
+          "reason": "no_ground_truth"
+        },
+        {
+          "query_id": "q025",
+          "query": "三文鱼刺身",
+          "strategy": "hybrid_merge",
+          "expected": [],
+          "actual": [],
+          "missing_ingredients": [],
+          "reason": "no_ground_truth"
+        },
+        {
+          "query_id": "q026",
+          "query": "羊肉泡馍",
+          "strategy": "hybrid_merge",
+          "expected": [],
+          "actual": [],
+          "missing_ingredients": [],
+          "reason": "no_ground_truth"
+        },
+        {
+          "query_id": "q028",
+          "query": "鸡蛋",
+          "strategy": "hybrid_merge",
+          "expected": [
+            "番茄炒蛋",
+            "西红柿鸡蛋汤",
+            "蛋炒饭",
+            "西红柿鸡蛋面"
+          ],
+          "actual": [],
+          "missing_ingredients": [
+            "鸡蛋"
+          ],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q029",
+          "query": "五花肉",
+          "strategy": "hybrid_merge",
+          "expected": [
+            "红烧肉"
+          ],
+          "actual": [
+            "红烧肉经典做法"
+          ],
+          "missing_ingredients": [
+            "五花肉"
+          ],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q030",
+          "query": "豆腐怎么做好吃",
+          "strategy": "hybrid_merge",
+          "expected": [
+            "麻婆豆腐"
+          ],
+          "actual": [
+            "麻婆豆腐",
+            "麻婆豆腐"
+          ],
+          "missing_ingredients": [],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q032",
+          "query": "茄子 土豆 青椒",
+          "strategy": "hybrid_merge",
+          "expected": [
+            "地三鲜"
+          ],
+          "actual": [
+            "地三鲜"
+          ],
+          "missing_ingredients": [
+            "茄子",
+            "土豆",
+            "青椒"
+          ],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q034",
+          "query": "木耳 胡萝卜 猪肉",
+          "strategy": "hybrid_merge",
+          "expected": [
+            "鱼香肉丝"
+          ],
+          "actual": [],
+          "missing_ingredients": [
+            "猪肉",
+            "胡萝卜"
+          ],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q035",
+          "query": "剩饭怎么做",
+          "strategy": "hybrid_merge",
+          "expected": [
+            "蛋炒饭"
+          ],
+          "actual": [
+            "蛋炒饭做法"
+          ],
+          "missing_ingredients": [
+            "米饭"
+          ],
+          "reason": "ingredient_mismatch"
+        }
+      ]
+    },
+    {
+      "strategy": "hybrid_rrf",
+      "total_queries": 35,
+      "ground_truth_queries": 31,
+      "hit_at_1": 0.5806,
+      "hit_at_3": 0.6129,
+      "hit_at_5": 0.6129,
+      "mrr": 0.5968,
+      "ingredient_coverage": 0.4462,
+      "avg_latency_ms": 1421.95,
+      "p50_latency_ms": 1306.55,
+      "p95_latency_ms": 2257.33,
+      "rag_hit_rate": 0.7714,
+      "tavily_success_rate": 1.0,
+      "fallback_rate": 0.2286,
+      "avg_result_count": 1.31,
+      "errors": [
+        {
+          "query_id": "q003",
+          "query": "鸡肉 胡萝卜",
+          "strategy": "hybrid_rrf",
+          "expected": [
+            "土豆炖牛肉"
+          ],
+          "actual": [
+            "胡萝卜炒鸡肉"
+          ],
+          "missing_ingredients": [],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q004",
+          "query": "鸡蛋 豆腐",
+          "strategy": "hybrid_rrf",
+          "expected": [
+            "麻婆豆腐"
+          ],
+          "actual": [
+            "鸡蛋豆腐羹"
+          ],
+          "missing_ingredients": [],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q009",
+          "query": "鸡肉、香菇、青椒",
+          "strategy": "hybrid_rrf",
+          "expected": [
+            "宫保鸡丁",
+            "青椒肉丝"
+          ],
+          "actual": [
+            "宫保鸡丁"
+          ],
+          "missing_ingredients": [
+            "鸡肉",
+            "香菇",
+            "青椒"
+          ],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q012",
+          "query": "马铃薯 牛肉",
+          "strategy": "hybrid_rrf",
+          "expected": [
+            "土豆炖牛肉"
+          ],
+          "actual": [
+            "马铃薯炖牛肉"
+          ],
+          "missing_ingredients": [],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q013",
+          "query": "洋芋 牛肉",
+          "strategy": "hybrid_rrf",
+          "expected": [
+            "土豆炖牛肉"
+          ],
+          "actual": [
+            "洋芋炖牛肉"
+          ],
+          "missing_ingredients": [
+            "洋芋"
+          ],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q017",
+          "query": "鸡肉，不要辣",
+          "strategy": "hybrid_rrf",
+          "expected": [
+            "宫保鸡丁",
+            "鸡胸肉沙拉"
+          ],
+          "actual": [],
+          "missing_ingredients": [
+            "鸡肉"
+          ],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q018",
+          "query": "家常牛肉怎么做",
+          "strategy": "hybrid_rrf",
+          "expected": [
+            "土豆炖牛肉",
+            "葱爆牛肉",
+            "红烧肉"
+          ],
+          "actual": [
+            "土豆炖牛肉",
+            "红烧牛肉的家常做法"
+          ],
+          "missing_ingredients": [],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q020",
+          "query": "适合下饭的番茄菜",
+          "strategy": "hybrid_rrf",
+          "expected": [
+            "番茄炒蛋",
+            "西红柿鸡蛋汤"
+          ],
+          "actual": [],
+          "missing_ingredients": [
+            "番茄"
+          ],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q021",
+          "query": "下饭菜谱",
+          "strategy": "hybrid_rrf",
+          "expected": [
+            "鱼香肉丝",
+            "宫保鸡丁",
+            "麻婆豆腐"
+          ],
+          "actual": [],
+          "missing_ingredients": [],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q022",
+          "query": "简单的家常菜",
+          "strategy": "hybrid_rrf",
+          "expected": [
+            "番茄炒蛋",
+            "蛋炒饭",
+            "西红柿鸡蛋汤"
+          ],
+          "actual": [],
+          "missing_ingredients": [],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q023",
+          "query": "鳕鱼怎么做",
+          "strategy": "hybrid_rrf",
+          "expected": [],
+          "actual": [
+            "清蒸鳕鱼"
+          ],
+          "missing_ingredients": [],
+          "reason": "no_ground_truth"
+        },
+        {
+          "query_id": "q024",
+          "query": "法式牛排怎么做",
+          "strategy": "hybrid_rrf",
+          "expected": [],
+          "actual": [
+            "法式煎牛排"
+          ],
+          "missing_ingredients": [],
+          "reason": "no_ground_truth"
+        },
+        {
+          "query_id": "q025",
+          "query": "三文鱼刺身",
+          "strategy": "hybrid_rrf",
+          "expected": [],
+          "actual": [],
+          "missing_ingredients": [],
+          "reason": "no_ground_truth"
+        },
+        {
+          "query_id": "q026",
+          "query": "羊肉泡馍",
+          "strategy": "hybrid_rrf",
+          "expected": [],
+          "actual": [],
+          "missing_ingredients": [],
+          "reason": "no_ground_truth"
+        },
+        {
+          "query_id": "q028",
+          "query": "鸡蛋",
+          "strategy": "hybrid_rrf",
+          "expected": [
+            "番茄炒蛋",
+            "西红柿鸡蛋汤",
+            "蛋炒饭",
+            "西红柿鸡蛋面"
+          ],
+          "actual": [],
+          "missing_ingredients": [
+            "鸡蛋"
+          ],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q029",
+          "query": "五花肉",
+          "strategy": "hybrid_rrf",
+          "expected": [
+            "红烧肉"
+          ],
+          "actual": [
+            "红烧肉经典做法"
+          ],
+          "missing_ingredients": [
+            "五花肉"
+          ],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q030",
+          "query": "豆腐怎么做好吃",
+          "strategy": "hybrid_rrf",
+          "expected": [
+            "麻婆豆腐"
+          ],
+          "actual": [
+            "麻婆豆腐",
+            "麻婆豆腐"
+          ],
+          "missing_ingredients": [],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q032",
+          "query": "茄子 土豆 青椒",
+          "strategy": "hybrid_rrf",
+          "expected": [
+            "地三鲜"
+          ],
+          "actual": [
+            "地三鲜"
+          ],
+          "missing_ingredients": [
+            "茄子",
+            "土豆",
+            "青椒"
+          ],
+          "reason": "ingredient_mismatch"
+        },
+        {
+          "query_id": "q034",
+          "query": "木耳 胡萝卜 猪肉",
+          "strategy": "hybrid_rrf",
+          "expected": [
+            "鱼香肉丝"
+          ],
+          "actual": [],
+          "missing_ingredients": [
+            "猪肉",
+            "胡萝卜"
+          ],
+          "reason": "rag_miss"
+        },
+        {
+          "query_id": "q035",
+          "query": "剩饭怎么做",
+          "strategy": "hybrid_rrf",
+          "expected": [
+            "蛋炒饭"
+          ],
+          "actual": [
+            "蛋炒饭做法"
+          ],
+          "missing_ingredients": [
+            "米饭"
+          ],
+          "reason": "ingredient_mismatch"
+        }
+      ]
+    }
+  ],
+  "threshold_sweep": [
+    {
+      "threshold": 0.3,
+      "actual_threshold": 0.3,
+      "hit_at_3": 0.9677,
+      "ingredient_coverage": 0.6774,
+      "avg_latency_ms": 1465.18,
+      "rag_hit_rate": 1.0,
+      "avg_result_count": 5
+    },
+    {
+      "threshold": 0.4,
+      "actual_threshold": 0.4,
+      "hit_at_3": 0.9032,
+      "ingredient_coverage": 0.6452,
+      "avg_latency_ms": 1512.72,
+      "rag_hit_rate": 0.9714,
+      "avg_result_count": 3.89
+    },
+    {
+      "threshold": 0.5,
+      "actual_threshold": 0.5,
+      "hit_at_3": 0.6129,
+      "ingredient_coverage": 0.4462,
+      "avg_latency_ms": 1283.38,
+      "rag_hit_rate": 0.7714,
+      "avg_result_count": 1.31
+    },
+    {
+      "threshold": 0.6,
+      "actual_threshold": 0.6,
+      "hit_at_3": 0.3871,
+      "ingredient_coverage": 0.1667,
+      "avg_latency_ms": 1411.08,
+      "rag_hit_rate": 0.6571,
+      "avg_result_count": 0.8
+    },
+    {
+      "threshold": 0.7,
+      "actual_threshold": 0.7,
+      "hit_at_3": 0.2581,
+      "ingredient_coverage": 0.0645,
+      "avg_latency_ms": 1384.26,
+      "rag_hit_rate": 0.6286,
+      "avg_result_count": 0.66
+    }
+  ],
+  "rrf_weight_sweep": [
+    {
+      "final_weight": 0.2,
+      "ingredient_weight": 0.8,
+      "hit_at_3": 0.6129,
+      "mrr": 0.5968,
+      "ingredient_coverage": 0.4462
+    },
+    {
+      "final_weight": 0.3,
+      "ingredient_weight": 0.7,
+      "hit_at_3": 0.6129,
+      "mrr": 0.5968,
+      "ingredient_coverage": 0.4462
+    },
+    {
+      "final_weight": 0.4,
+      "ingredient_weight": 0.6,
+      "hit_at_3": 0.6129,
+      "mrr": 0.5968,
+      "ingredient_coverage": 0.4462
+    },
+    {
+      "final_weight": 0.5,
+      "ingredient_weight": 0.5,
+      "hit_at_3": 0.6129,
+      "mrr": 0.5968,
+      "ingredient_coverage": 0.4462
+    },
+    {
+      "final_weight": 0.6,
+      "ingredient_weight": 0.4,
+      "hit_at_3": 0.6129,
+      "mrr": 0.5968,
+      "ingredient_coverage": 0.4462
+    },
+    {
+      "final_weight": 0.7,
+      "ingredient_weight": 0.3,
+      "hit_at_3": 0.6129,
+      "mrr": 0.5968,
+      "ingredient_coverage": 0.4462
+    },
+    {
+      "final_weight": 0.8,
+      "ingredient_weight": 0.2,
+      "hit_at_3": 0.6129,
+      "mrr": 0.5968,
+      "ingredient_coverage": 0.4462
+    }
+  ],
+  "topk_sweep": [
+    {
+      "top_k": 1,
+      "hit_at_k": 0.5806,
+      "ingredient_coverage": 0.4462,
+      "avg_latency_ms": 1355.36,
+      "avg_result_count": 0.77
+    },
+    {
+      "top_k": 3,
+      "hit_at_k": 0.6129,
+      "ingredient_coverage": 0.4462,
+      "avg_latency_ms": 1300.93,
+      "avg_result_count": 1.26
+    },
+    {
+      "top_k": 5,
+      "hit_at_k": 0.6129,
+      "ingredient_coverage": 0.4462,
+      "avg_latency_ms": 1554.22,
+      "avg_result_count": 1.31
+    }
+  ]
+}
