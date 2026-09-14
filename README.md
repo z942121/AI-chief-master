@@ -580,7 +580,3 @@ python -m compileall app     # 语法编译检查
 - MySQL 凭据只从 `backend/.env` 读取，代码中不硬编码；连接失败自动回退 SQLite
 - 删除会话时会同时清空 LangGraph checkpoint 中的 Agent 记忆
 - 本地 SQLite（`backend/data/personal_chief.db`）与 Chroma 数据为持久化数据，请勿删除
-
-## License
-
-MIT
